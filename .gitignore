@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Database
+*.db
+*.db-shm
+*.db-wal
+
+# Secrets
+.env
+
+# Generated at runtime
+sent_emails/*.html
+tickets_qr/*.png
+!sent_emails/.gitkeep
+!tickets_qr/.gitkeep
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
